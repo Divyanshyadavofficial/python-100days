@@ -1,0 +1,19 @@
+i= 0 
+for i in range(5):
+    print(i)
+    if i==4:
+        break
+else:
+    print("sorry no i")
+# In this above block of code else part is not executed because
+# the for loop contains the break statment i.e there is 
+# no complete execution of the for loop and it breaks when i == 4
+# the else part only works when there is successfull execution 
+# of the for loop upto the last iteration
+#this also works same for a while loop.
+    
+for x in range(5):
+    print("iteration no {} in for loop ".format(x+1))
+else:
+    print("else block in loop")
+print("out of loop")
